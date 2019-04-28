@@ -30,55 +30,55 @@ public class CalculatorTest {
     public void calculateBi() {
         // Test add.
         calc.calculateBi(Calculator.BiOperatorModes.add, 1.0);
-        assertEquals(2.0, calc.calculateEqual(1.0).doubleValue(), max_error);
+        assertEquals(2.0, calc.calculateEqual(1.0), max_error);
         calc.reset();
         calc.calculateBi(Calculator.BiOperatorModes.add, 17.4);
-        assertEquals(50.9, calc.calculateEqual(33.5).doubleValue(), max_error);
+        assertEquals(50.9, calc.calculateEqual(33.5), max_error);
         calc.reset();
         calc.calculateBi(Calculator.BiOperatorModes.add, 1.0);
-        assertEquals(-9.0, calc.calculateEqual(-10.0).doubleValue(), max_error);
+        assertEquals(-9.0, calc.calculateEqual(-10.0), max_error);
         calc.reset();
         calc.calculateBi(Calculator.BiOperatorModes.add, 10000.0);
-        assertEquals(20000.0, calc.calculateEqual(10000.0).doubleValue(), max_error);
+        assertEquals(20000.0, calc.calculateEqual(10000.0), max_error);
         calc.reset();
 
         // Test minus.
         calc.calculateBi(Calculator.BiOperatorModes.minus, 1.0);
-        assertEquals(0.0, calc.calculateEqual(1.0).doubleValue(), max_error);
+        assertEquals(0.0, calc.calculateEqual(1.0), max_error);
         calc.reset();
         calc.calculateBi(Calculator.BiOperatorModes.minus, 17.4);
-        assertEquals(-16.1, calc.calculateEqual(33.5).doubleValue(), max_error);
+        assertEquals(-16.1, calc.calculateEqual(33.5), max_error);
         calc.reset();
         calc.calculateBi(Calculator.BiOperatorModes.minus, 1.0);
-        assertEquals(11.0, calc.calculateEqual(-10.0).doubleValue(), max_error);
+        assertEquals(11.0, calc.calculateEqual(-10.0), max_error);
         calc.reset();
         calc.calculateBi(Calculator.BiOperatorModes.minus, 10000.0);
-        assertEquals(0.0, calc.calculateEqual(10000.0).doubleValue(), max_error);
+        assertEquals(0.0, calc.calculateEqual(10000.0), max_error);
         calc.reset();
 
         // Test multiply.
         calc.calculateBi(Calculator.BiOperatorModes.multiply, 1.0);
-        assertEquals(0.0, calc.calculateEqual(0.0).doubleValue(), max_error);
+        assertEquals(0.0, calc.calculateEqual(0.0), max_error);
         calc.reset();
         calc.calculateBi(Calculator.BiOperatorModes.multiply, 14.0);
-        assertEquals(294.0, calc.calculateEqual(21.0).doubleValue(), max_error);
+        assertEquals(294.0, calc.calculateEqual(21.0), max_error);
         calc.reset();
         calc.calculateBi(Calculator.BiOperatorModes.multiply, 17.4);
-        assertEquals(582.9, calc.calculateEqual(33.5).doubleValue(), max_error);
+        assertEquals(582.9, calc.calculateEqual(33.5), max_error);
         calc.reset();
         calc.calculateBi(Calculator.BiOperatorModes.multiply, -17.4);
-        assertEquals(-582.9, calc.calculateEqual(33.5).doubleValue(), max_error);
+        assertEquals(-582.9, calc.calculateEqual(33.5), max_error);
         calc.reset();
 
         // Test divide.
         calc.calculateBi(Calculator.BiOperatorModes.divide, 1.0);
-        assertEquals(1.0, calc.calculateEqual(1.0).doubleValue(), max_error);
+        assertEquals(1.0, calc.calculateEqual(1.0), max_error);
         calc.reset();
         calc.calculateBi(Calculator.BiOperatorModes.divide, 16.0);
-        assertEquals(4.0, calc.calculateEqual(4.0).doubleValue(), max_error);
+        assertEquals(4.0, calc.calculateEqual(4.0), max_error);
         calc.reset();
         calc.calculateBi(Calculator.BiOperatorModes.divide, -17.4);
-        assertEquals(-5.8, calc.calculateEqual(3.0).doubleValue(), max_error);
+        assertEquals(-5.8, calc.calculateEqual(3.0), max_error);
         calc.reset();
         calc.calculateBi(Calculator.BiOperatorModes.divide, 17.4);
         assertTrue(Double.isInfinite(calc.calculateEqual(0.0)));
@@ -86,16 +86,44 @@ public class CalculatorTest {
 
         // Test xpowerofy.
         calc.calculateBi(Calculator.BiOperatorModes.xpowerofy, 2.0);
-        assertEquals(2.0, calc.calculateEqual(1.0).doubleValue(), max_error);
+        assertEquals(2.0, calc.calculateEqual(1.0), max_error);
         calc.reset();
         calc.calculateBi(Calculator.BiOperatorModes.xpowerofy, 2.0);
-        assertEquals(8.0, calc.calculateEqual(3.0).doubleValue(), max_error);
+        assertEquals(8.0, calc.calculateEqual(3.0), max_error);
         calc.reset();
         calc.calculateBi(Calculator.BiOperatorModes.xpowerofy, 4.0);
-        assertEquals(0.0625, calc.calculateEqual(-2.0).doubleValue(), max_error);
+        assertEquals(0.0625, calc.calculateEqual(-2.0), max_error);
         calc.reset();
         calc.calculateBi(Calculator.BiOperatorModes.xpowerofy, -4.0);
-        assertEquals(0.0625, calc.calculateEqual(-2.0).doubleValue(), max_error);
+        assertEquals(0.0625, calc.calculateEqual(-2.0), max_error);
+        calc.reset();
+
+        // Test complex equation.
+        // (3 * 8 - 12) / 3 = 4.
+        calc.calculateBi(Calculator.BiOperatorModes.multiply, 3.0);
+        calc.calculateBi(Calculator.BiOperatorModes.minus, 8.0);
+        calc.calculateBi(Calculator.BiOperatorModes.divide, 12.0);
+        assertEquals(4.0, calc.calculateEqual(3.0), max_error);
+        calc.reset();
+
+        // 2 ^ 10 / 4 + 17.211 - 999 = -725.789.
+        calc.calculateBi(Calculator.BiOperatorModes.xpowerofy, 2.0);
+        calc.calculateBi(Calculator.BiOperatorModes.divide, 10.0);
+        calc.calculateBi(Calculator.BiOperatorModes.add, 4.0);
+        calc.calculateBi(Calculator.BiOperatorModes.minus, 17.211);
+        assertEquals(-725.789, calc.calculateEqual(999.0), max_error);
+        calc.reset();
+
+        // cos(PI / 2) * 999 + log(100) + sin(PI / 6) - 2 ^ 2 + sqrt(4) - 1 / 20 + tan(PT / 4) + 10% = .
+        calc.calculateBi(Calculator.BiOperatorModes.multiply,
+                calc.calculateMono(Calculator.MonoOperatorModes.cos, Math.PI / 2));
+        calc.calculateBi(Calculator.BiOperatorModes.add, 999.0);
+        calc.calculateBi(Calculator.BiOperatorModes.add,
+                calc.calculateMono(Calculator.MonoOperatorModes.log, 100.0));
+        calc.calculateBi(Calculator.BiOperatorModes.minus,
+                calc.calculateMono(Calculator.MonoOperatorModes.sin, Math.PI / 6));
+        calc.calculateBi(Calculator.BiOperatorModes.add,
+                calc.calculateMono(Calculator.MonoOperatorModes.square, 4.0));
         calc.reset();
 
         // Test error: wrong BiOperatorModes.
@@ -105,7 +133,7 @@ public class CalculatorTest {
 
         // Test error: start equation with BiOperatorModes.normal.
         // calc.calculateBi(Calculator.BiOperatorModes.normal, 1.0);
-        // Conclusion: normal part of calculateBiImpl() is unreacheable.
+        // Conclusion: normal part of calculateBiImpl() is unreachable.
     }
 
     @Test
