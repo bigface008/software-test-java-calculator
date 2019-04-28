@@ -23,13 +23,75 @@ public class CalculatorTest {
 
     @Test
     public void calculateBi() {
-        // Test wrong input.
-//        assertTrue(Double.isNaN(calc.calculateBi(Calculator.BiOperatorModes.normal, 0.0)));
-//        calc.reset();
-//        Double t = calc.calculateBi(Calculator.BiOperatorModes.add, 1.0);
-//        assertEquals(new Double(2.0), t);
-//        // Test +.
-//        assertEquals(calc.calculateBi(Calculator.BiOperatorModes.add, 1.0).doubleValue(), 2.0, 0.000001);
+        // Test add.
+        calc.calculateBi(Calculator.BiOperatorModes.add, 1.0);
+        assertEquals(2.0, calc.calculateBi(Calculator.BiOperatorModes.normal, 1.0).doubleValue(), max_error);
+        calc.reset();
+        calc.calculateBi(Calculator.BiOperatorModes.add, 17.4);
+        assertEquals(50.9, calc.calculateBi(Calculator.BiOperatorModes.normal, 33.5).doubleValue(), max_error);
+        calc.reset();
+        calc.calculateBi(Calculator.BiOperatorModes.add, 1.0);
+        assertEquals(-9.0, calc.calculateBi(Calculator.BiOperatorModes.normal, -10.0).doubleValue(), max_error);
+        calc.reset();
+        calc.calculateBi(Calculator.BiOperatorModes.add, 10000.0);
+        assertEquals(20000.0, calc.calculateBi(Calculator.BiOperatorModes.normal, 10000.0).doubleValue(), max_error);
+        calc.reset();
+
+        // Test minus.
+        calc.calculateBi(Calculator.BiOperatorModes.minus, 1.0);
+        assertEquals(0.0, calc.calculateBi(Calculator.BiOperatorModes.normal, 1.0).doubleValue(), max_error);
+        calc.reset();
+        calc.calculateBi(Calculator.BiOperatorModes.minus, 17.4);
+        assertEquals(-16.1, calc.calculateBi(Calculator.BiOperatorModes.normal, 33.5).doubleValue(), max_error);
+        calc.reset();
+        calc.calculateBi(Calculator.BiOperatorModes.minus, 1.0);
+        assertEquals(11.0, calc.calculateBi(Calculator.BiOperatorModes.normal, -10.0).doubleValue(), max_error);
+        calc.reset();
+        calc.calculateBi(Calculator.BiOperatorModes.minus, 10000.0);
+        assertEquals(0.0, calc.calculateBi(Calculator.BiOperatorModes.normal, 10000.0).doubleValue(), max_error);
+        calc.reset();
+
+        // Test multiply.
+        calc.calculateBi(Calculator.BiOperatorModes.multiply, 1.0);
+        assertEquals(0.0, calc.calculateBi(Calculator.BiOperatorModes.normal, 0.0).doubleValue(), max_error);
+        calc.reset();
+        calc.calculateBi(Calculator.BiOperatorModes.multiply, 14.0);
+        assertEquals(294.0, calc.calculateBi(Calculator.BiOperatorModes.normal, 21.0).doubleValue(), max_error);
+        calc.reset();
+        calc.calculateBi(Calculator.BiOperatorModes.multiply, 17.4);
+        assertEquals(582.9, calc.calculateBi(Calculator.BiOperatorModes.normal, 33.5).doubleValue(), max_error);
+        calc.reset();
+        calc.calculateBi(Calculator.BiOperatorModes.multiply, -17.4);
+        assertEquals(-582.9, calc.calculateBi(Calculator.BiOperatorModes.normal, 33.5).doubleValue(), max_error);
+        calc.reset();
+
+        // Test divide.
+        calc.calculateBi(Calculator.BiOperatorModes.divide, 1.0);
+        assertEquals(1.0, calc.calculateBi(Calculator.BiOperatorModes.normal, 1.0).doubleValue(), max_error);
+        calc.reset();
+        calc.calculateBi(Calculator.BiOperatorModes.divide, 16.0);
+        assertEquals(4.0, calc.calculateBi(Calculator.BiOperatorModes.normal, 4.0).doubleValue(), max_error);
+        calc.reset();
+        calc.calculateBi(Calculator.BiOperatorModes.divide, -17.4);
+        assertEquals(-5.8, calc.calculateBi(Calculator.BiOperatorModes.normal, 3.0).doubleValue(), max_error);
+        calc.reset();
+        calc.calculateBi(Calculator.BiOperatorModes.divide, 17.4);
+        assertTrue(Double.isInfinite(calc.calculateBi(Calculator.BiOperatorModes.normal, 0.0)));
+        calc.reset();
+
+        // Test xpowerofy.
+        calc.calculateBi(Calculator.BiOperatorModes.xpowerofy, 2.0);
+        assertEquals(2.0, calc.calculateBi(Calculator.BiOperatorModes.normal, 1.0).doubleValue(), max_error);
+        calc.reset();
+        calc.calculateBi(Calculator.BiOperatorModes.xpowerofy, 2.0);
+        assertEquals(8.0, calc.calculateBi(Calculator.BiOperatorModes.normal, 3.0).doubleValue(), max_error);
+        calc.reset();
+        calc.calculateBi(Calculator.BiOperatorModes.xpowerofy, 4.0);
+        assertEquals(0.0625, calc.calculateBi(Calculator.BiOperatorModes.normal, -2.0).doubleValue(), max_error);
+        calc.reset();
+        calc.calculateBi(Calculator.BiOperatorModes.xpowerofy, -4.0);
+        assertEquals(0.0625, calc.calculateBi(Calculator.BiOperatorModes.normal, -2.0).doubleValue(), max_error);
+        calc.reset();
     }
 
     @Test
