@@ -3,7 +3,9 @@ package com.company;
 import com.sun.org.apache.xalan.internal.xsltc.dom.CachedNodeListIterator;
 import org.junit.After;
 import org.junit.Before;
+import org.junit.Rule;
 import org.junit.Test;
+import org.junit.rules.ExpectedException;
 
 import static org.junit.Assert.*;
 
@@ -11,6 +13,9 @@ public class CalculatorTest {
 
     private Calculator calc;
     final private double max_error = 0.000001;
+
+    @Rule
+    public ExpectedException thrown = ExpectedException.none();
 
     @Before
     public void setUp() throws Exception {
@@ -92,6 +97,11 @@ public class CalculatorTest {
         calc.calculateBi(Calculator.BiOperatorModes.xpowerofy, -4.0);
         assertEquals(0.0625, calc.calculateEqual(-2.0).doubleValue(), max_error);
         calc.reset();
+
+        // Test error: wrong BiOperatorModes.
+        thrown.expect(Error.class);
+        calc.calculateBi(Calculator.BiOperatorModes.enumnum, 1.0);
+        calc.calculateEqual(1.0);
     }
 
     @Test
@@ -164,5 +174,9 @@ public class CalculatorTest {
         assertEquals(0.11, calc.calculateMono(Calculator.MonoOperatorModes.rate, 11.0), max_error);
         assertEquals(-0.11, calc.calculateMono(Calculator.MonoOperatorModes.rate, -11.0), max_error);
         assertEquals(1.00, calc.calculateMono(Calculator.MonoOperatorModes.rate, 100.0), max_error);
+
+        // Test error.
+        thrown.expect(Error.class);
+        calc.calculateMono(Calculator.MonoOperatorModes.enumnum, 1.0);
     }
 }

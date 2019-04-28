@@ -6,11 +6,11 @@ import static java.lang.Math.pow;
 
 public class Calculator {
     public enum BiOperatorModes {
-        normal, add, minus, multiply, divide , xpowerofy
+        normal, add, minus, multiply, divide , xpowerofy, enumnum
     }
 
     public enum MonoOperatorModes {
-        square, squareRoot, oneDevidedBy, cos, sin, tan ,log , rate
+        square, squareRoot, oneDevidedBy, cos, sin, tan ,log , rate, enumnum
     }
 
     private Double num1, num2;

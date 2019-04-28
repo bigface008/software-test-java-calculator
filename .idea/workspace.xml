@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bce11643-ab14-40de-8cc9-cf1d2ce641f3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/Test Results - CalculatorTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/Test Results - CalculatorTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Calculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/com/company/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/com/company/CalculatorTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -13,7 +14,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/software_test_java_calculator$CalculatorTest.ic" NAME="CalculatorTest Coverage Results" MODIFIED="1556442140157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/software_test_java_calculator$CalculatorTest.ic" NAME="CalculatorTest Coverage Results" MODIFIED="1556454728283" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.company.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/software_test_java_calculator$CalculatorTest_calculateMono.ic" NAME="CalculatorTest.calculateMono Coverage Results" MODIFIED="1556452232513" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
@@ -24,9 +25,12 @@
     </SUITE>
   </component>
   <component name="CoverageViewManager">
-    <option name="myElementSize" value="165" />
+    <option name="myElementSize" value="153" />
   </component>
   <component name="ExportTestResults" outputFolder="$PROJECT_DIR$/doc" userTempatePath="" />
+  <component name="ExportToHTMLSettings">
+    <option name="OUTPUT_DIRECTORY" value="D:\workspace\software-test\software-test-java-calculator\doc" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
@@ -42,7 +46,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/company/UI.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="126">
-              <caret line="194" column="31" lean-forward="true" selection-start-line="194" selection-start-column="31" selection-end-line="194" selection-end-column="31" />
+              <caret line="194" column="31" selection-start-line="194" selection-start-column="31" selection-end-line="194" selection-end-column="31" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -53,8 +57,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Calculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="53" column="8" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="8" />
+            <state relative-caret-position="170">
+              <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -65,8 +69,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/com/company/CalculatorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-918">
-              <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+            <state relative-caret-position="238">
+              <caret line="107" selection-start-line="107" selection-end-line="107" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -151,7 +155,8 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556452891903" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556454728043" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/doc" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="plugins.junitgenerator.application" />
@@ -168,7 +173,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CalculatorTest.calculateBi">
+  <component name="RunManager" selected="JUnit.CalculatorTest">
     <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.Main" />
       <module name="software-test-java-calculator" />
@@ -231,9 +236,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CalculatorTest" />
         <item itemvalue="JUnit.CalculatorTest.calculateBi" />
         <item itemvalue="JUnit.CalculatorTest.calculateMono" />
-        <item itemvalue="JUnit.CalculatorTest" />
       </list>
     </recent_temporary>
   </component>
@@ -248,44 +253,44 @@
       <option name="presentableId" value="Default" />
       <updated>1556431744451</updated>
       <workItem from="1556431746025" duration="9616000" />
-      <workItem from="1556442011075" duration="5691000" />
+      <workItem from="1556442011075" duration="7385000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CalculatorTest_calculateBi - 2019.04.28 at 19h 38m 17s.xml">
-      <configuration name="CalculatorTest.calculateBi" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CalculatorTest_calculateBi - 2019.04.28 at 19h 40m 26s.xml">
-      <configuration name="CalculatorTest.calculateBi" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CalculatorTest_calculateBi - 2019.04.28 at 19h 44m 29s.xml">
-      <configuration name="CalculatorTest.calculateBi" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CalculatorTest_calculateBi - 2019.04.28 at 19h 45m 22s.xml">
-      <configuration name="CalculatorTest.calculateBi" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CalculatorTest_calculateBi - 2019.04.28 at 19h 49m 02s.xml">
-      <configuration name="CalculatorTest.calculateBi" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CalculatorTest_calculateMono - 2019.04.28 at 19h 50m 36s.xml">
-      <configuration name="CalculatorTest.calculateMono" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CalculatorTest_calculateBi - 2019.04.28 at 19h 55m 04s.xml">
-      <configuration name="CalculatorTest.calculateBi" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CalculatorTest_calculateBi - 2019.04.28 at 19h 57m 24s.xml">
-      <configuration name="CalculatorTest.calculateBi" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CalculatorTest_calculateBi - 2019.04.28 at 19h 57m 36s.xml">
-      <configuration name="CalculatorTest.calculateBi" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CalculatorTest_calculateBi - 2019.04.28 at 19h 58m 27s.xml">
       <configuration name="CalculatorTest.calculateBi" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="CalculatorTest - 2019.04.28 at 20h 02m 31s.xml">
+      <configuration name="CalculatorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalculatorTest - 2019.04.28 at 20h 06m 55s.xml">
+      <configuration name="CalculatorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalculatorTest_calculateBi - 2019.04.28 at 20h 18m 30s.xml">
+      <configuration name="CalculatorTest.calculateBi" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalculatorTest_calculateBi - 2019.04.28 at 20h 19m 01s.xml">
+      <configuration name="CalculatorTest.calculateBi" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalculatorTest_calculateBi - 2019.04.28 at 20h 20m 17s.xml">
+      <configuration name="CalculatorTest.calculateBi" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalculatorTest_calculateBi - 2019.04.28 at 20h 21m 22s.xml">
+      <configuration name="CalculatorTest.calculateBi" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalculatorTest_calculateMono - 2019.04.28 at 20h 22m 46s.xml">
+      <configuration name="CalculatorTest.calculateMono" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalculatorTest - 2019.04.28 at 20h 22m 53s.xml">
+      <configuration name="CalculatorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalculatorTest - 2019.04.28 at 20h 23m 12s.xml">
+      <configuration name="CalculatorTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15307000" />
+    <option name="totallyTimeSpent" value="17001000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -385,7 +390,7 @@
     <entry file="file://$PROJECT_DIR$/src/com/company/UI.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
-          <caret line="194" column="31" lean-forward="true" selection-start-line="194" selection-start-column="31" selection-end-line="194" selection-end-column="31" />
+          <caret line="194" column="31" selection-start-line="194" selection-start-column="31" selection-end-line="194" selection-end-column="31" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
@@ -394,8 +399,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Calculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="53" column="8" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="8" />
+        <state relative-caret-position="170">
+          <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -404,8 +409,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/com/company/CalculatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-918">
-          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+        <state relative-caret-position="238">
+          <caret line="107" selection-start-line="107" selection-end-line="107" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
