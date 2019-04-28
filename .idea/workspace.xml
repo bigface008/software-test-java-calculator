@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bce11643-ab14-40de-8cc9-cf1d2ce641f3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/doc/Test Results - CalculatorTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/Test Results - CalculatorTest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Calculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/com/company/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/com/company/CalculatorTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -45,8 +43,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/UI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="194" column="31" selection-start-line="194" selection-start-column="31" selection-end-line="194" selection-end-column="31" />
+            <state relative-caret-position="2363">
+              <caret line="146" column="27" selection-start-line="146" selection-start-column="27" selection-end-line="146" selection-end-column="27" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -54,11 +52,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/Calculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+            <state relative-caret-position="238">
+              <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -66,11 +64,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/com/company/CalculatorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="107" selection-start-line="107" selection-end-line="107" />
+            <state relative-caret-position="425">
+              <caret line="106" column="65" selection-start-line="106" selection-start-column="65" selection-end-line="106" selection-end-column="65" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -155,7 +153,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556454728043" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556455573961" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/doc" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -253,26 +251,11 @@
       <option name="presentableId" value="Default" />
       <updated>1556431744451</updated>
       <workItem from="1556431746025" duration="9616000" />
-      <workItem from="1556442011075" duration="7385000" />
+      <workItem from="1556442011075" duration="8170000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CalculatorTest_calculateBi - 2019.04.28 at 19h 58m 27s.xml">
-      <configuration name="CalculatorTest.calculateBi" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CalculatorTest - 2019.04.28 at 20h 02m 31s.xml">
-      <configuration name="CalculatorTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CalculatorTest - 2019.04.28 at 20h 06m 55s.xml">
-      <configuration name="CalculatorTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CalculatorTest_calculateBi - 2019.04.28 at 20h 18m 30s.xml">
-      <configuration name="CalculatorTest.calculateBi" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CalculatorTest_calculateBi - 2019.04.28 at 20h 19m 01s.xml">
-      <configuration name="CalculatorTest.calculateBi" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CalculatorTest_calculateBi - 2019.04.28 at 20h 20m 17s.xml">
       <configuration name="CalculatorTest.calculateBi" configurationId="JUnit" />
     </history-entry>
@@ -288,9 +271,24 @@
     <history-entry file="CalculatorTest - 2019.04.28 at 20h 23m 12s.xml">
       <configuration name="CalculatorTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="CalculatorTest_calculateBi - 2019.04.28 at 20h 29m 26s.xml">
+      <configuration name="CalculatorTest.calculateBi" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalculatorTest - 2019.04.28 at 20h 29m 43s.xml">
+      <configuration name="CalculatorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalculatorTest_calculateBi - 2019.04.28 at 20h 31m 53s.xml">
+      <configuration name="CalculatorTest.calculateBi" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalculatorTest - 2019.04.28 at 20h 32m 03s.xml">
+      <configuration name="CalculatorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalculatorTest - 2019.04.28 at 20h 32m 10s.xml">
+      <configuration name="CalculatorTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17001000" />
+    <option name="totallyTimeSpent" value="17786000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -380,6 +378,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/UI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2363">
+          <caret line="146" column="27" selection-start-line="146" selection-start-column="27" selection-end-line="146" selection-end-column="27" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -387,30 +395,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/UI.java">
+    <entry file="file://$PROJECT_DIR$/test/com/company/CalculatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="194" column="31" selection-start-line="194" selection-start-column="31" selection-end-line="194" selection-end-column="31" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Calculator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+        <state relative-caret-position="425">
+          <caret line="106" column="65" selection-start-line="106" selection-start-column="65" selection-end-line="106" selection-end-column="65" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/company/CalculatorTest.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/Calculator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
-          <caret line="107" selection-start-line="107" selection-end-line="107" />
+          <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

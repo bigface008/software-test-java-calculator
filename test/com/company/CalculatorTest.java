@@ -102,6 +102,10 @@ public class CalculatorTest {
         thrown.expect(Error.class);
         calc.calculateBi(Calculator.BiOperatorModes.enumnum, 1.0);
         calc.calculateEqual(1.0);
+
+        // Test error: start equation with BiOperatorModes.normal.
+        // calc.calculateBi(Calculator.BiOperatorModes.normal, 1.0);
+        // Conclusion: normal part of calculateBiImpl() is unreacheable.
     }
 
     @Test
