@@ -2,15 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bce11643-ab14-40de-8cc9-cf1d2ce641f3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/description.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/junitgenerator-prj-settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/project-template.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/com/company/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/com/company/CalculatorTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -55,8 +46,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/com/company/CalculatorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
-              <caret line="73" column="79" selection-start-line="73" selection-start-column="79" selection-end-line="73" selection-end-column="79" />
+            <state relative-caret-position="276">
+              <caret line="89" column="69" selection-start-line="89" selection-start-column="69" selection-end-line="89" selection-end-column="69" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -139,7 +130,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556440694834" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556441733706" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -218,44 +209,44 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1556431744451</updated>
-      <workItem from="1556431746025" duration="8294000" />
+      <workItem from="1556431746025" duration="9248000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CalculatorTest_calculateBi - 2019.04.28 at 15h 53m 48s.xml">
-      <configuration name="CalculatorTest.calculateBi" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CalculatorTest_calculateBi - 2019.04.28 at 15h 54m 31s.xml">
-      <configuration name="CalculatorTest.calculateBi" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CalculatorTest_calculateBi - 2019.04.28 at 16h 02m 49s.xml">
-      <configuration name="CalculatorTest.calculateBi" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CalculatorTest_calculateMono - 2019.04.28 at 16h 11m 42s.xml">
-      <configuration name="CalculatorTest.calculateMono" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CalculatorTest_calculateMono - 2019.04.28 at 16h 12m 49s.xml">
-      <configuration name="CalculatorTest.calculateMono" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CalculatorTest_calculateBi - 2019.04.28 at 16h 15m 29s.xml">
-      <configuration name="CalculatorTest.calculateBi" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CalculatorTest_calculateMono - 2019.04.28 at 16h 24m 36s.xml">
-      <configuration name="CalculatorTest.calculateMono" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CalculatorTest_calculateMono - 2019.04.28 at 16h 32m 21s.xml">
-      <configuration name="CalculatorTest.calculateMono" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CalculatorTest_calculateMono - 2019.04.28 at 16h 32m 54s.xml">
-      <configuration name="CalculatorTest.calculateMono" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CalculatorTest_calculateMono - 2019.04.28 at 16h 33m 22s.xml">
+      <configuration name="CalculatorTest.calculateMono" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalculatorTest_calculateMono - 2019.04.28 at 16h 37m 37s.xml">
+      <configuration name="CalculatorTest.calculateMono" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalculatorTest_calculateMono - 2019.04.28 at 16h 38m 18s.xml">
+      <configuration name="CalculatorTest.calculateMono" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalculatorTest_calculateMono - 2019.04.28 at 16h 40m 04s.xml">
+      <configuration name="CalculatorTest.calculateMono" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalculatorTest_calculateMono - 2019.04.28 at 16h 41m 06s.xml">
+      <configuration name="CalculatorTest.calculateMono" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalculatorTest_calculateMono - 2019.04.28 at 16h 45m 01s.xml">
+      <configuration name="CalculatorTest.calculateMono" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalculatorTest_calculateMono - 2019.04.28 at 16h 46m 38s.xml">
+      <configuration name="CalculatorTest.calculateMono" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalculatorTest_calculateMono - 2019.04.28 at 16h 48m 52s.xml">
+      <configuration name="CalculatorTest.calculateMono" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalculatorTest_calculateMono - 2019.04.28 at 16h 49m 24s.xml">
+      <configuration name="CalculatorTest.calculateMono" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalculatorTest_calculateMono - 2019.04.28 at 16h 51m 47s.xml">
       <configuration name="CalculatorTest.calculateMono" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8294000" />
+    <option name="totallyTimeSpent" value="9248000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -352,8 +343,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/com/company/CalculatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="73" column="79" selection-start-line="73" selection-start-column="79" selection-end-line="73" selection-end-column="79" />
+        <state relative-caret-position="276">
+          <caret line="89" column="69" selection-start-line="89" selection-start-column="69" selection-end-line="89" selection-end-column="69" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

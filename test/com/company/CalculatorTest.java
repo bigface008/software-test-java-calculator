@@ -63,18 +63,44 @@ public class CalculatorTest {
 
         // Test cos.
         assertEquals(1.0, calc.calculateMono(Calculator.MonoOperatorModes.cos, 0.0), max_error);
+        assertEquals(0.5, calc.calculateMono(Calculator.MonoOperatorModes.cos, Math.PI / 3), max_error);
+        assertEquals(0.5, calc.calculateMono(Calculator.MonoOperatorModes.cos, -Math.PI / 3), max_error);
+        assertEquals(0.0, calc.calculateMono(Calculator.MonoOperatorModes.cos, Math.PI / 2), max_error);
+        assertEquals(0.0, calc.calculateMono(Calculator.MonoOperatorModes.cos, -Math.PI / 2), max_error);
+        assertEquals(-0.5, calc.calculateMono(Calculator.MonoOperatorModes.cos, 2 * Math.PI / 3), max_error);
+        assertEquals(-0.5, calc.calculateMono(Calculator.MonoOperatorModes.cos, -2 * Math.PI / 3), max_error);
+        assertEquals(-1.0, calc.calculateMono(Calculator.MonoOperatorModes.cos, Math.PI), max_error);
+        assertEquals(-1.0, calc.calculateMono(Calculator.MonoOperatorModes.cos, -Math.PI), max_error);
 
         // Test sin.
         assertEquals(0.0, calc.calculateMono(Calculator.MonoOperatorModes.sin, 0.0), max_error);
+        assertEquals(0.5, calc.calculateMono(Calculator.MonoOperatorModes.sin, Math.PI / 6), max_error);
+        assertEquals(-0.5, calc.calculateMono(Calculator.MonoOperatorModes.sin, -Math.PI / 6), max_error);
+        assertEquals(1.0, calc.calculateMono(Calculator.MonoOperatorModes.sin, Math.PI / 2), max_error);
+        assertEquals(-1.0, calc.calculateMono(Calculator.MonoOperatorModes.sin, -Math.PI / 2), max_error);
+        assertEquals(0.5, calc.calculateMono(Calculator.MonoOperatorModes.sin, 5 * Math.PI / 6), max_error);
+        assertEquals(-0.5, calc.calculateMono(Calculator.MonoOperatorModes.sin, -5 * Math.PI / 6), max_error);
+        assertEquals(0.0, calc.calculateMono(Calculator.MonoOperatorModes.sin, Math.PI), max_error);
+        assertEquals(0.0, calc.calculateMono(Calculator.MonoOperatorModes.sin, -Math.PI), max_error);
 
         // Test tan.
         assertEquals(0.0, calc.calculateMono(Calculator.MonoOperatorModes.tan, 0.0), max_error);
+        assertEquals(1.0, calc.calculateMono(Calculator.MonoOperatorModes.tan, Math.PI / 4), max_error);
+        assertEquals(-1.0, calc.calculateMono(Calculator.MonoOperatorModes.tan, -Math.PI / 4), max_error);
+        // JVM will throw an Error if the following instruction is executed.
+        // assertTrue(Double.isInfinite(calc.calculateMono(Calculator.MonoOperatorModes.tan, Math.PI / 2)));
 
         // Test log.
         assertEquals(0.0, calc.calculateMono(Calculator.MonoOperatorModes.log, 1.0), max_error);
         assertEquals(1.0, calc.calculateMono(Calculator.MonoOperatorModes.log, 10.0), max_error);
+        assertEquals(2.0, calc.calculateMono(Calculator.MonoOperatorModes.log, 100.0), max_error);
         assertTrue(Double.isInfinite(calc.calculateMono(Calculator.MonoOperatorModes.log, 0.0)));
 
         // Test rate.
+        assertEquals(0.01, calc.calculateMono(Calculator.MonoOperatorModes.rate, 1.0), max_error);
+        assertEquals(0.0, calc.calculateMono(Calculator.MonoOperatorModes.rate, 0.0), max_error);
+        assertEquals(0.11, calc.calculateMono(Calculator.MonoOperatorModes.rate, 11.0), max_error);
+        assertEquals(-0.11, calc.calculateMono(Calculator.MonoOperatorModes.rate, -11.0), max_error);
+        assertEquals(1.00, calc.calculateMono(Calculator.MonoOperatorModes.rate, 100.0), max_error);
     }
 }
