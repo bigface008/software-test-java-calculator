@@ -2,6 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bce11643-ab14-40de-8cc9-cf1d2ce641f3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com.company/.classes/Calculator.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/com.company/.classes/Calculator.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com.company/.classes/Main.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/com.company/.classes/Main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com.company/.classes/UI.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/com.company/.classes/UI.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com.company/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/com.company/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com.company/index_SORT_BY_BLOCK.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/com.company/index_SORT_BY_BLOCK.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com.company/index_SORT_BY_BLOCK_DESC.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/com.company/index_SORT_BY_BLOCK_DESC.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com.company/index_SORT_BY_CLASS.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/com.company/index_SORT_BY_CLASS.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com.company/index_SORT_BY_CLASS_DESC.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/com.company/index_SORT_BY_CLASS_DESC.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com.company/index_SORT_BY_LINE.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/com.company/index_SORT_BY_LINE.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com.company/index_SORT_BY_LINE_DESC.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/com.company/index_SORT_BY_LINE_DESC.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com.company/index_SORT_BY_METHOD.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/com.company/index_SORT_BY_METHOD.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com.company/index_SORT_BY_METHOD_DESC.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/com.company/index_SORT_BY_METHOD_DESC.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com.company/index_SORT_BY_NAME_DESC.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/com.company/index_SORT_BY_NAME_DESC.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/index_SORT_BY_BLOCK.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/index_SORT_BY_BLOCK.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/index_SORT_BY_BLOCK_DESC.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/index_SORT_BY_BLOCK_DESC.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/index_SORT_BY_CLASS.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/index_SORT_BY_CLASS.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/index_SORT_BY_CLASS_DESC.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/index_SORT_BY_CLASS_DESC.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/index_SORT_BY_LINE.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/index_SORT_BY_LINE.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/index_SORT_BY_LINE_DESC.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/index_SORT_BY_LINE_DESC.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/index_SORT_BY_METHOD.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/index_SORT_BY_METHOD.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/index_SORT_BY_METHOD_DESC.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/index_SORT_BY_METHOD_DESC.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/index_SORT_BY_NAME_DESC.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/index_SORT_BY_NAME_DESC.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/测试计划.docx" beforeDir="false" afterPath="$PROJECT_DIR$/doc/测试计划.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/测试评估报告.docx" beforeDir="false" afterPath="$PROJECT_DIR$/doc/测试评估报告.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/软件需求规约.docx" beforeDir="false" afterPath="$PROJECT_DIR$/doc/软件需求规约.docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/com/company/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/com/company/CalculatorTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -12,7 +39,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/software_test_java_calculator$CalculatorTest.ic" NAME="CalculatorTest Coverage Results" MODIFIED="1556454728283" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/software_test_java_calculator$CalculatorTest.ic" NAME="CalculatorTest Coverage Results" MODIFIED="1556500176670" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.company.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/software_test_java_calculator$CalculatorTest_calculateMono.ic" NAME="CalculatorTest.calculateMono Coverage Results" MODIFIED="1556452232513" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
@@ -43,8 +70,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/UI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2363">
-              <caret line="146" column="27" selection-start-line="146" selection-start-column="27" selection-end-line="146" selection-end-column="27" />
+            <state relative-caret-position="170">
+              <caret line="57" column="40" selection-start-line="57" selection-start-column="40" selection-end-line="57" selection-end-column="40" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -55,8 +82,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Calculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+            <state relative-caret-position="136">
+              <caret line="73" column="25" lean-forward="true" selection-start-line="73" selection-start-column="25" selection-end-line="73" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -67,8 +94,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/com/company/CalculatorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="121" column="75" selection-start-line="121" selection-start-column="75" selection-end-line="121" selection-end-column="75" />
+            <state relative-caret-position="306">
+              <caret line="98" column="20" selection-start-line="98" selection-start-column="20" selection-end-line="98" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -84,6 +111,7 @@
       <find>inf</find>
       <find>in</find>
       <find>calculateeq</find>
+      <find>square</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -109,6 +137,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -143,7 +172,6 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -153,10 +181,11 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556457036674" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556510517222" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/doc" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="plugins.junitgenerator.application" />
   </component>
   <component name="RunDashboard">
@@ -171,7 +200,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CalculatorTest.calculateBi">
+  <component name="RunManager" selected="JUnit.CalculatorTest.calculateMono">
     <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.Main" />
       <module name="software-test-java-calculator" />
@@ -234,9 +263,9 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CalculatorTest.calculateBi" />
-        <item itemvalue="JUnit.CalculatorTest" />
         <item itemvalue="JUnit.CalculatorTest.calculateMono" />
+        <item itemvalue="JUnit.CalculatorTest" />
+        <item itemvalue="JUnit.CalculatorTest.calculateBi" />
       </list>
     </recent_temporary>
   </component>
@@ -251,23 +280,12 @@
       <option name="presentableId" value="Default" />
       <updated>1556431744451</updated>
       <workItem from="1556431746025" duration="9616000" />
-      <workItem from="1556442011075" duration="9857000" />
+      <workItem from="1556442011075" duration="10084000" />
+      <workItem from="1556499078899" duration="7725000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CalculatorTest - 2019.04.28 at 20h 22m 53s.xml">
-      <configuration name="CalculatorTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CalculatorTest - 2019.04.28 at 20h 23m 12s.xml">
-      <configuration name="CalculatorTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CalculatorTest_calculateBi - 2019.04.28 at 20h 29m 26s.xml">
-      <configuration name="CalculatorTest.calculateBi" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CalculatorTest - 2019.04.28 at 20h 29m 43s.xml">
-      <configuration name="CalculatorTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CalculatorTest_calculateBi - 2019.04.28 at 20h 31m 53s.xml">
       <configuration name="CalculatorTest.calculateBi" configurationId="JUnit" />
     </history-entry>
@@ -286,9 +304,21 @@
     <history-entry file="CalculatorTest_calculateBi - 2019.04.28 at 20h 57m 10s.xml">
       <configuration name="CalculatorTest.calculateBi" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="CalculatorTest_calculateBi - 2019.04.29 at 09h 02m 09s.xml">
+      <configuration name="CalculatorTest.calculateBi" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalculatorTest_calculateBi - 2019.04.29 at 09h 08m 23s.xml">
+      <configuration name="CalculatorTest.calculateBi" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalculatorTest - 2019.04.29 at 09h 09m 41s.xml">
+      <configuration name="CalculatorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalculatorTest_calculateMono - 2019.04.29 at 10h 54m 50s.xml">
+      <configuration name="CalculatorTest.calculateMono" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19473000" />
+    <option name="totallyTimeSpent" value="27425000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -303,7 +333,7 @@
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25383994" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25788197" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -323,7 +353,6 @@
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.3285968" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.3285968" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.3285968" />
-      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.32983023" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -333,6 +362,7 @@
       <window_info anchor="right" id="Maven" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32983023" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -378,16 +408,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/UI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2363">
-          <caret line="146" column="27" selection-start-line="146" selection-start-column="27" selection-end-line="146" selection-end-column="27" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -397,18 +417,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Calculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+        <state relative-caret-position="136">
+          <caret line="73" column="25" lean-forward="true" selection-start-line="73" selection-start-column="25" selection-end-line="73" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/UI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="57" column="40" selection-start-line="57" selection-start-column="40" selection-end-line="57" selection-end-column="40" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/com/company/CalculatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="121" column="75" selection-start-line="121" selection-start-column="75" selection-end-line="121" selection-end-column="75" />
+        <state relative-caret-position="306">
+          <caret line="98" column="20" selection-start-line="98" selection-start-column="20" selection-end-line="98" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

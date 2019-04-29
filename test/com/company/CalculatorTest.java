@@ -114,7 +114,7 @@ public class CalculatorTest {
         assertEquals(-725.789, calc.calculateEqual(999.0), max_error);
         calc.reset();
 
-        // cos(PI / 2) * 999 + log(100) + sin(PI / 6) - 2 ^ 2 + sqrt(4) - 1 / 20 + tan(PT / 4) + 10% = .
+        // cos(PI / 2) * 999 + log(100) + sin(PI / 6) - 2 ^ 2 + sqrt(4) - 1 / 20 + tan(PI / 4) + 10% = 1.55.
         calc.calculateBi(Calculator.BiOperatorModes.multiply,
                 calc.calculateMono(Calculator.MonoOperatorModes.cos, Math.PI / 2));
         calc.calculateBi(Calculator.BiOperatorModes.add, 999.0);
@@ -123,7 +123,16 @@ public class CalculatorTest {
         calc.calculateBi(Calculator.BiOperatorModes.minus,
                 calc.calculateMono(Calculator.MonoOperatorModes.sin, Math.PI / 6));
         calc.calculateBi(Calculator.BiOperatorModes.add,
-                calc.calculateMono(Calculator.MonoOperatorModes.square, 4.0));
+                calc.calculateMono(Calculator.MonoOperatorModes.square, 2.0));
+        calc.calculateBi(Calculator.BiOperatorModes.minus,
+                calc.calculateMono(Calculator.MonoOperatorModes.squareRoot, 4.0));
+        calc.calculateBi(Calculator.BiOperatorModes.add,
+                calc.calculateMono(Calculator.MonoOperatorModes.oneDevidedBy, 20.0));
+        calc.calculateBi(Calculator.BiOperatorModes.add,
+                calc.calculateMono(Calculator.MonoOperatorModes.tan, Math.PI / 4));
+        assertEquals(1.55,
+                calc.calculateEqual(calc.calculateMono(Calculator.MonoOperatorModes.rate, 10.0)),
+                max_error);
         calc.reset();
 
         // Test error: wrong BiOperatorModes.
