@@ -1,36 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bce11643-ab14-40de-8cc9-cf1d2ce641f3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/com.company/.classes/Calculator.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/com.company/.classes/Calculator.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/com.company/.classes/Main.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/com.company/.classes/Main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/com.company/.classes/UI.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/com.company/.classes/UI.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/com.company/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/com.company/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/com.company/index_SORT_BY_BLOCK.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/com.company/index_SORT_BY_BLOCK.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/com.company/index_SORT_BY_BLOCK_DESC.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/com.company/index_SORT_BY_BLOCK_DESC.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/com.company/index_SORT_BY_CLASS.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/com.company/index_SORT_BY_CLASS.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/com.company/index_SORT_BY_CLASS_DESC.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/com.company/index_SORT_BY_CLASS_DESC.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/com.company/index_SORT_BY_LINE.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/com.company/index_SORT_BY_LINE.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/com.company/index_SORT_BY_LINE_DESC.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/com.company/index_SORT_BY_LINE_DESC.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/com.company/index_SORT_BY_METHOD.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/com.company/index_SORT_BY_METHOD.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/com.company/index_SORT_BY_METHOD_DESC.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/com.company/index_SORT_BY_METHOD_DESC.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/com.company/index_SORT_BY_NAME_DESC.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/com.company/index_SORT_BY_NAME_DESC.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/index_SORT_BY_BLOCK.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/index_SORT_BY_BLOCK.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/index_SORT_BY_BLOCK_DESC.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/index_SORT_BY_BLOCK_DESC.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/index_SORT_BY_CLASS.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/index_SORT_BY_CLASS.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/index_SORT_BY_CLASS_DESC.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/index_SORT_BY_CLASS_DESC.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/index_SORT_BY_LINE.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/index_SORT_BY_LINE.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/index_SORT_BY_LINE_DESC.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/index_SORT_BY_LINE_DESC.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/index_SORT_BY_METHOD.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/index_SORT_BY_METHOD.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/index_SORT_BY_METHOD_DESC.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/index_SORT_BY_METHOD_DESC.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/index_SORT_BY_NAME_DESC.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/index_SORT_BY_NAME_DESC.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/测试计划.docx" beforeDir="false" afterPath="$PROJECT_DIR$/doc/测试计划.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/测试评估报告.docx" beforeDir="false" afterPath="$PROJECT_DIR$/doc/测试评估报告.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/软件需求规约.docx" beforeDir="false" afterPath="$PROJECT_DIR$/doc/软件需求规约.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/com/company/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/com/company/CalculatorTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="bce11643-ab14-40de-8cc9-cf1d2ce641f3" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -83,7 +54,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/company/Calculator.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
-              <caret line="73" column="25" lean-forward="true" selection-start-line="73" selection-start-column="25" selection-end-line="73" selection-end-column="25" />
+              <caret line="73" column="25" selection-start-line="73" selection-start-column="25" selection-end-line="73" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -94,8 +65,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/com/company/CalculatorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="98" column="20" selection-start-line="98" selection-start-column="20" selection-end-line="98" selection-end-column="20" />
+            <state relative-caret-position="170">
+              <caret line="117" selection-start-line="117" selection-end-line="117" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -181,7 +152,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556510517222" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556510696732" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/doc" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -281,7 +252,7 @@
       <updated>1556431744451</updated>
       <workItem from="1556431746025" duration="9616000" />
       <workItem from="1556442011075" duration="10084000" />
-      <workItem from="1556499078899" duration="7725000" />
+      <workItem from="1556499078899" duration="8089000" />
     </task>
     <servers />
   </component>
@@ -318,7 +289,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27425000" />
+    <option name="totallyTimeSpent" value="27789000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -418,7 +389,7 @@
     <entry file="file://$PROJECT_DIR$/src/com/company/Calculator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="73" column="25" lean-forward="true" selection-start-line="73" selection-start-column="25" selection-end-line="73" selection-end-column="25" />
+          <caret line="73" column="25" selection-start-line="73" selection-start-column="25" selection-end-line="73" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -437,8 +408,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/com/company/CalculatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="98" column="20" selection-start-line="98" selection-start-column="20" selection-end-line="98" selection-end-column="20" />
+        <state relative-caret-position="170">
+          <caret line="117" selection-start-line="117" selection-end-line="117" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
